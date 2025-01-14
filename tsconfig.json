@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // Compatibilidad con ES6
+    "module": "CommonJS", // Sistema de módulos
+    "rootDir": "./src", // Directorio raíz para el código fuente
+    "outDir": "./dist", // Carpeta de salida para el código compilado
+    "strict": true, // Habilitar comprobaciones estrictas
+    "esModuleInterop": true, // Interoperabilidad con módulos ES
+    "skipLibCheck": true, // Evitar verificar tipos en node_modules
+    "resolveJsonModule": true // Permitir importar archivos JSON
+  },
+  "include": ["src/**/*"], // Archivos incluidos
+  "exclude": ["node_modules"] // Archivos excluidos
+}
